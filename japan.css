@@ -8,14 +8,21 @@
 body
 {
     background-color: ghostwhite;
+    border: 20px solid pink;
+}
+
+img 
+{
+    object-fit: cover;
 }
 
 /* 主圖片控制: */
 img.banner 
 {
     width: 100%;
-    height: 75vb;
+    height: 50vb;
     object-fit: cover;
+    margin-bottom: 10px;
 }
 
 /* 目錄欄位: */
@@ -28,6 +35,7 @@ img.banner
     display: flex;
     justify-content: space-around;
     margin: -3px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .nav a
@@ -50,20 +58,12 @@ img.banner
     width: 20%;
     height: 80px;
     line-height: 50px;
-    margin: 20px auto;
+    margin: 60px auto;
     text-align: center;
     font-size: 30px;
 }
 
-.footer {
-    width:  100%;
-    height: 90px;
-    line-height: 90px;
-    text-align: center;
-    background-color: pink;
-    font-size: 30px;
-    color: white;
-}
+
 
 img:hover
 {
@@ -86,3 +86,6 @@ img:hover
     max-width: 20%; /* 確保每張圖片的寬度不超過背景容器 */
     height: auto; /* 確保圖片等比例縮放 */
 }
+
+
+

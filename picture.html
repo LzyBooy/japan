@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>圖片相冊</title>
+    <link rel="stylesheet" href="japan.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .content {
+            color: black;
+            opacity: 0.9;
+            width: 90%;
+            margin: 0 auto;
+            margin-top: 45px;
+            text-align: center;
+            font-size: 30px;
+        }
+
+        .item {
+            width: 100%;
+            height: 600px;
+            background-attachment: fixed;
+            background-position: center center;
+            background-size: cover;
+            transition: all 0.5s;
+        }
+
+        .item:hover {
+            filter: brightness(1.2);
+        }
+
+        
+        
+
+        .item:nth-child(2) {
+            background-image: url(/images/cartoon/1.jpg);
+        }
+
+        .item:nth-child(3) {
+            background-image: url(/images/cartoon/2.jpg);
+        }
+
+        .item:nth-child(4) {
+            background-image: url(/images/cartoon/3.jpg);
+        }
+
+        .item:nth-child(5) {
+            background-image: url(/images/cartoon/4.jpg);
+        }
+
+        .item:nth-child(6) {
+            background-image: url(/images/cartoon/5.jpg);
+        }
+
+        .item:nth-child(7) {
+            background-image: url(/images/cartoon/6.jpg);
+        }
+
+        .item:nth-child(8) {
+            background-image: url(/images/cartoon/7.jpg);
+        }
+
+        .item:nth-child(9) {
+            background-image: url(/images/cartoon/8.jpg);
+        }
+
+        .item:nth-child(10) {
+            background-image: url(/images/cartoon/9.jpg);
+        }
+
+        .item:nth-child(11) {
+            background-image: url(/images/cartoon/10.png);
+        }
+        .footer {
+            text-align: center;
+            padding: 20px 0;
+            background-color: #f8f9fa;
+        }
+
+        
+        .nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background-color: rgba(255, 255, 255, 0.9);
+            z-index: 1000;
+            display: flex;
+            justify-content: center;
+            padding: 10px 0;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .nav a {
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 18px;
+            transition: color 0.3s;
+        }
+
+        
+        .nav a.active {
+            color: #ff4081;
+        }
+
+        /* 避免導覽列遮擋內容 */
+        body {
+            padding-top: 60px;
+        }
+
+    </style>
+</head>
+<body>
+    <!-- 自訂導覽列 -->
+    <nav class="nav bg-light py-2 px-3 justify-content-center">
+        <a class="nav-link" href="home.html">網站首頁</a>
+        <a class="nav-link" href="charactor.html">角色介紹</a>
+        <a class="nav-link active" href="picture.html">劇場版</a>
+        <a class="nav-link" href="story.html">劇情介紹</a>
+        <a class="nav-link" href="#">關於我們</a>
+    </nav>
+
+    <!-- 內容區域 -->
+    <div class="item">
+        <div class="content">
+            <h1>Amigo！森巴入侵計畫</h1>
+            春日部市出現了一場離奇的案件：居民們一個接一個消失，取而代之的是與他們一模一樣的替身，而這些替身的行為異常怪異。小新和春日部防衛隊逐漸發現，這一切與一支神秘的森巴舞隊有關，他們背後隱藏著一場可怕的陰謀。
+            小新和朋友們踏上了冒險之旅，試圖揭開真相並拯救家人和朋友。在劇情的高潮部分，小新用他的無厘頭幽默和天馬行空的點子打亂了敵人的計畫，最終成功阻止了整個城市被取代的危機。
+        </div>
+    </div>
+
+    <div class="item">
+        <div class="content">
+            <h1>光榮燒肉之路</h1>
+            野原一家對燒肉的熱愛達到巔峰，但在計畫享用燒肉大餐的過程中，他們卻捲入了一場陰謀。為了守護燒肉的尊嚴與美味，一家人與壞人展開了一場爆笑且熱血的對決。該劇場版充滿家庭之間的溫馨互動，並以搞笑情節貫穿全片，是系列中充滿「野原家精神」的代表作之一。
+        </div>
+    </div>
+
+    <div class="item">
+        <div class="content">
+            <h1>呼風喚雨！猛烈！大人帝國的反擊</h1>
+            以昭和懷舊風為主題，影片講述一群反派利用懷舊情感操控成年人，使其沉浸在過去的美好回憶中，試圖阻止現代社會的發展。當所有成年人都被迷惑後，小新與春日部防衛隊成為拯救世界的希望。他們不僅要打敗敵人，還要喚醒沉迷於回憶的父母。該作被譽為《蠟筆小新》劇場版中最感人且深刻的作品。
+        </div>
+    </div>
+
+    <div class="item">
+        <div class="content">
+            <h1>呼風喚雨！戰國大合戰</h1>
+            小新一家穿越到日本戰國時代，捲入了一場古代的戰爭。他們結識了一對身處亂世中的戀人，並幫助他們實現夢想，同時努力返回現代世界。影片以宏大的戰爭場面與感人的愛情故事著稱，結合了歷史與現代搞笑風格，被視為系列劇場版中的經典之作。
+        </div>
+    </div>
+
+    <div class="item">
+        <div class="content">
+            <h1>搞怪遊樂園大冒險</h1>
+            小新和家人前往一個全新的遊樂園遊玩，卻意外發現遊樂園背後隱藏著不可告人的陰謀。小新與春日部防衛隊聯手，展開了一場充滿笑料與刺激的冒險。他們運用機智與勇氣，解救被困的人們，並阻止了反派的邪惡計畫。該電影將童真與冒險相結合，是系列早期的一部經典作品。
+        </div>
+    </div>
+
+    <div class="item">
+        <div class="content">
+            <h1>布里布里王國的寶藏</h1>
+            小新與家人參加了一場豪華郵輪旅行，卻意外捲入了一場尋找傳說中的「布里布里王國寶藏」的冒險。在這次旅途中，小新結識了王國的繼承人瑪莉，並與壞人展開一場爭奪寶藏的激烈對抗。小新以其獨特的機智和搞笑行為，幫助瑪莉守護了寶藏與王國的未來。
+        </div>
+    </div>
+
+    <div class="item">
+        <div class="content">
+            <h1>小白的屁屁炸彈</h1>
+            一顆外星屁屁炸彈降臨地球，威脅著全球的安全，而這顆炸彈竟與小新的愛犬小白有著密切的關聯。壞人試圖利用炸彈的力量征服世界，小新與春日部防衛隊勇敢挺身而出，誓言保護小白並阻止災難的發生。這部電影不僅搞笑滿分，更以人與動物間的情感為主題，令人感動。
+        </div>
+    </div>
+
+    <div class="item">
+        <div class="content">
+            <h1>超時空！風起雲湧的我的新娘</h1>
+            一位來自未來的神秘少女突然出現在小新的生活中，自稱是小新未來的妻子。然而，她其實是為了追捕一名來自未來的反派而來，並需要小新的協助。故事在現代與未來的交錯中展開，充滿了歡笑與冒險，並以愛與勇氣為主題，是一部充滿創意與情感的劇場版。
+        </div>
+    </div>
+
+    <div class="item">
+        <div class="content">
+            <h1>逆襲的機器人爸爸</h1>
+            小新的爸爸廣志被壞人改造成了機器人，儘管身體不再是人類，但內心依然是愛著家人的廣志。他決定用自己的力量保護家人，對抗改造他的邪惡組織。影片以親情為核心，描繪了父親為守護家人而奮不顧身的故事，感人至深，是一部兼具溫情與笑點的劇場版。
+        </div>
+    </div>
+
+    <div class="item">
+        <div class="content">
+            <h1>我的搬家物語 仙人掌大襲擊</h1>
+            野原一家因廣志的工作原因搬到墨西哥，卻發現當地正遭遇一群變異仙人掌的攻擊。這些仙人掌具有人類的智慧與破壞性，意圖統治世界。野原一家與春日部防衛隊合力對抗仙人掌，並揭開了幕後的陰謀。電影充滿異國風情和幽默感，是一部既搞笑又冒險的作品。
+        </div>
+    </div>
+
+    <!-- 頁尾 -->
+    <footer class="bg-light text-center py-3 fs-3">
+        蠟筆小新@版權所有 - 2024
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

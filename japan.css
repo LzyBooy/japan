@@ -1,14 +1,9 @@
+@import url('http://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
 *
 {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-}
-
-body
-{
-    background-color: ghostwhite;
-    border: 20px solid pink;
 }
 
 img 
@@ -86,6 +81,3 @@ img:hover
     max-width: 20%; /* 確保每張圖片的寬度不超過背景容器 */
     height: auto; /* 確保圖片等比例縮放 */
 }
-
-
-
